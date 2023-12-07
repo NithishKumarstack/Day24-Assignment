@@ -1,0 +1,27 @@
+header{
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.Nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
